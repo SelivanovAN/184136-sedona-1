@@ -1,0 +1,125 @@
+.advantages {
+  background-color: @advantages-1-2-bg;
+}
+.advantages__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.advantages__information {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 36px 20px;
+  padding-top: 82px;
+  width: 280px;
+}
+.advantages__information::before {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  content: "";
+  display: block;
+  width: 320px;
+  height: 41px;
+  background: url(../img/bg-triangle.svg) no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+.advantages-sity__title--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform:@text-transform;
+}
+.advantages-sity__number--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.advantages-sity__about--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: @text-transform;
+}
+.advantages__image {
+  font-size: 0;
+  width: 100%;
+  min-height: 259px;
+}
+.advantages__image--size {
+  width: 100%;
+  max-height: 259px;
+}
+@media @mobile {
+  .advantages-sity__number--big {
+    margin-bottom: 8px;
+    margin-top: 7px;
+  }
+}
+@media @tablet-widths {
+  .advantages__wrapper {
+    flex-direction: row;
+  }
+  .advantages__information {
+    padding-top: 45px;
+    padding-bottom: 44px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .advantages__information::before {
+    display: none;
+  }
+  .advantages-sity__title--big {
+    font-size: 21px;
+  }
+  .advantages-sity__number--big {
+    margin-bottom: 2px;
+    margin-top: -8px;
+  }
+  .advantages-sity__about--big {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+  }
+  .advantages__image {
+    min-height: 257px;
+  }
+}
+@media @desktop-widths {
+  .advantages__information {
+    min-width: 264px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 51px;
+    padding-bottom: 57px;
+  }
+  .advantages__image {
+    min-height: 256px;
+  }
+  .advantages-sity__title--big {
+    font-size: 21px;
+    width: 120px;
+    margin: 0 auto;
+  }
+  .advantages-sity__number--big {
+    margin-top: -1px;
+  }
+  .advantages-sity__about--big {
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 25px;
+  }
+}

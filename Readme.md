@@ -1,18 +1,19 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Александр Селиванов](https://up.htmlacademy.ru/adaptive/13/user/184136).
-* Наставник: `Зубов Сергей`.
+* Студент: [Александр Селиванов](https://up.htmlacademy.ru/adaptive/10/user/184136).
+* Наставник: [Дмитрий Безуглый] (https://github.com/shalfey41).
 
 ---
 
-**Обратите внимание, что папка с вашими исходными файлами — `source/`.**
+**Обратите внимание на файлы:**
 
-Полезный файл:
-
+- [Specification.md](Specification.md) — техническое задание для вашего проекта. Прочтите его и следуйте требованиям.
 - [Contributing.md](Contributing.md) — руководство по внесению изменений.
 
+--
+
 _Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
+_`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`._
 
 ---
 
@@ -36,7 +37,7 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`,
 
 Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/26306241/3f932436-3efb-11e7-8e83-013100c7b3eb.png">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455711/9875cd36-206d-11e6-8612-3e5da5bde374.png">
 
 Клонировать репозиторий можно так:
 
@@ -50,9 +51,9 @@ git clone SSH-адрес_вашего_форка
 
 ---
 
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
+<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github.svg"></a>
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Профессиональный HTML и CSS](https://htmlacademy.ru/intensive/adaptive)», уровень 2 от [HTML Academy](https://htmlacademy.ru).
+Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый HTML и CSS](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
 [travis-image]: https://travis-ci.org/htmlacademy-adaptive/184136-sedona.svg?branch=master
 [travis-url]: https://travis-ci.org/htmlacademy-adaptive/184136-sedona

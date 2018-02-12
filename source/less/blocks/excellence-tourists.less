@@ -1,0 +1,112 @@
+.excellence-tourists {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  width: 280px;
+  min-height: 168px;
+  box-sizing: border-box;
+  padding: 30px 0px;
+  margin: 0;
+}
+.excellence-tourists__title {
+    margin: 0px;
+}
+.excellence-tourists__title--big {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform:@text-transform;
+}
+.excellence-tourists__number--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 7px;
+  margin-bottom: 11px;
+}
+.excellence-tourists__about {
+  margin: 0px;
+}
+.excellence-tourists__about--big {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: @text-transform;
+}
+@media @mobile {
+  .excellence-tourists {
+    min-height: 167px;
+    padding: 0;
+    padding-top: 26px;
+    padding-bottom: 12px;
+  }
+  .excellence-tourists__about {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media @tablet-widths {
+  .excellence-tourists {
+    width: 175px;
+    padding: 0;
+    border: none;
+  }
+  .excellence-tourists__title--big {
+    font-size: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .excellence-tourists__number--big {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .excellence-tourists__about {
+    margin: 0px;
+    margin-top: 18px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .excellence-tourists__about--big {
+    line-height: 21px;
+  }
+}
+@media @desktop-widths {
+  .excellence-tourists {
+    width: 262px;
+    padding: 0;
+    border: none;
+  }
+  .excellence-tourists--center {
+    margin: 0 auto;
+    width: 120px;
+  }
+  .excellence-tourists__title--big {
+    font-size: 21px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 3px;
+
+  }
+  .excellence-tourists__number--big {
+    margin-bottom: 18px;
+    margin-top: 9px;
+  }
+  .excellence-tourists__about {
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0;
+  }
+  .excellence-tourists__about--big {
+    line-height: 22px;
+    margin-bottom: 4px;
+  }
+}

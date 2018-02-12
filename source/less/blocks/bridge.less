@@ -1,0 +1,111 @@
+.bridge {
+  background-color: @advantages-1-2-bg;
+}
+.bridge__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.bridge__information {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px 20px;
+  width: 280px;
+  padding-top: 41px;
+  padding-bottom: 36px;
+}
+.bridget__title--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform:@text-transform;
+}
+.bridge__number--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.bridge__about--big {
+  margin: 0px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: @text-transform;
+}
+.bridge__image {
+  font-size: 0;
+  width: 100%;
+  min-height: 260px;
+}
+.bridge__image--size {
+  width: 100%;
+  max-height: 260px;
+}
+@media @mobile {
+  .bridge__number--big {
+    margin-top: 5px;
+    margin-bottom: 13px;
+  }
+}
+@media @tablet-widths {
+  .bridge__wrapper {
+    flex-direction: row-reverse;
+  }
+  .bridge__information {
+    padding-top: 43px;
+    padding-bottom: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .bridget__title--big {
+    font-size: 21px;
+    padding: 0 18px;
+  }
+  .bridge__number--big {
+    margin-bottom: 18px;
+    margin-top: 9px;
+  }
+  .bridge__about--big {
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 22px;
+  }
+  .bridge__image {
+    min-height: 256px;
+  }
+}
+@media @desktop-widths {
+  .bridge__information {
+    min-width: 242px;
+    padding-left: 79px;
+    padding-right: 79px;
+    padding-top: 52px;
+    padding-bottom: 58px;
+  }
+  .bridge__image {
+    min-height: 256px;
+  }
+  .bridget__title--big {
+    width: 151px;
+    margin: 0 auto;
+    font-size: 21px;
+  }
+  .bridge__about--big {
+    margin: 0 auto;
+    width: 220px;
+    line-height: 23px;
+  }
+  .bridge__number--big {
+    margin-top: 8px;
+    margin-bottom: 17px;
+  }
+}
