@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body class="page-body">
+    <div class="page-body__index-shadow">
+      <header class="page-header">
+        <div class="page-body__shadow">
+          <nav class="main-nav  main-nav--closed  main-nav--nojs">
+            <button class="page-header__close" type="button">Закрыть меню
+              <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
+                <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1" fill="#ffffff"/>
+              </svg>
+            </button>
+            <ul class="main-nav__items">
+              <li class="main-nav__item"><a class="main-nav__link  main-nav__link--block" href="./index.html">Главная</a></li>
+              <li class="main-nav__item"><a class="main-nav__link  main-nav__link--block" href="./photo.html">Фото и видео</a></li>
+              <li class="main-nav__item"><a class="main-nav__link  main-nav__link--block  main-nav__item-link--active">Форма отзыва</a></li>
+              <li class="main-nav__item"><a class="main-nav__link  main-nav__link--block" href="https://htmlacademy.ru/">html academy</a></li>
+              <li class="main-nav__item  main-nav__item--logo  main-nav__item--center">
+                <button class="main-nav__toogle" type="button">Открыть меню
+                  <svg version="1.0" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+                    <g>
+                      <rect width="22.928" height="3.964" fill="#81b3d2"/>
+                      <rect y="9.009" width="22.928" height="3.964" fill="#81b3d2"/>
+                      <rect y="18.018" width="22.928" height="3.964" fill="#81b3d2"/>
+                    </g>
+                  </svg>
+                </button>
+                <a class="main-nav__logo" href="./index.html">
+                  <picture class="main-nav__logo-svg">
+                    <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+                    <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+                    <source media="(min-width: 320px)" srcset="img/logo-sedona-mobile.svg">
+                    <img src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Город седона">
+                  </picture>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="comment">
+        <div class="comment__wrapper">
+          <div class="comment__image">
+            <img class="comment__logo-title" src="img/text-sedona.svg" width="229" height="39" alt="Гора">
+          </div>
+          <div class="comment__description">
+            <h2 class="comment__title  comment__title--big">Оставьте свой отзыв</h2>
+            <p class="comment__about  comment__about--big">Помогите нашим отелям стать лучше оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+          </div>
+        </div>
+      </section>
+    <form class="information-forms" action="https://echo.htmlacademy.ru" method="get">
+      <div class="form__wrapper">
+        <div class="information-form__introduce  information-form-introduce">
+          <div class="information-form-introduce__wrapper">
+            <h2 class="information-form-introduce__title  information-form-introduce__title--big">Представьтесь:</h2>
+            <div class="information-form-introduce__label-wrapper">
+              <label class="information-form-introduce__label  information-form-introduce__label--big">
+                <span class="information-form-introduce__label-text">Имя*:</span>
+                <input class="information-form-introduce__input  information-form-introduce__input--background" type="text" name="name" placeholder="Петр">
+              </label>
+              <label class="information-form-introduce__label  information-form-introduce__label--big">
+                <span class="information-form-introduce__label-text">Фамилия*:</span>
+                <input class="information-form-introduce__input  information-form-introduce__input--background" type="text" name="surname" placeholder="Иванов">
+              </label>
+              <label class="information-form-introduce__label  information-form-introduce__label--big">
+                <span class="information-form-introduce__label-text">Отчество:</span>
+                <input class="information-form-introduce__input  information-form-introduce__input--background" type="text" name="patronymic" placeholder="Александрович">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="information-form__contact  information-form-contact">
+          <div class="information-form-contact__wrapper">
+            <h2 class="information-form-contact__legend  information-form-contact__legend--big">Контактная информация:</h2>
+            <div class="information-form-contact__label-wrapper">
+              <label class="information-form-contact__label  information-form-contact__label-tel  information-form-contact__label--big">
+                <span class="information-form-contact__label-contact"><span class="information-form-contact__label-contact-hidden">Контактный</span> телефон*:</span>
+                <input class="information-form-contact__input information-form-contact__input--background" type="text" name="tel" placeholder="Введите телефон">
+              </label>
+              <label class="information-form-contact__label  information-form-contact__label-email  information-form-contact__label--big">
+                <span class="information-form-contact__label-contact">Электронная почта*:</span>
+                <input class="information-form-contact__input information-form-contact__input--background" type="email" name="email" placeholder="Введите e-mail">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="information-form__impression  information-form-impression">
+          <div class="information-form-impression__wrapper">
+            <h2 class="information-form-impression__legend  information-form-impression__legend--big">Ваше общее впечатление:</h2>
+            <div class="information-form-impression__label-wrapper">
+              <input class="information-form-impression__radio  information-form-impression__radio--none" type="radio" name="impression" id="good" checked>
+              <label class="information-form-impression__label  information-form-impression__label--thick" for="good">
+                <span class="information-form-impression__label-text">Скорее положительное</span>
+              </label>
+              <input class="information-form-impression__radio  information-form-impression__radio--none" type="radio" name="impression" id="bad">
+              <label class="information-form-impression__label  information-form-impression__label--thick" for="bad">
+                <span class="information-form-impression__label-text">Скорее отрицательное</span>
+              </label>
+              <input class="information-form-impression__radio  information-form-impression__radio--none" type="radio" name="impression" id="50">
+                <label class="information-form-impression__label  information-form-impression__label--thick" for="50">
+                <span class="information-form-impression__label-text">Затрудняюсь ответить</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="information-form__visited  information-form-visited">
+          <div class="information-form-visited__wrapper">
+            <h2 class="information-form-visited__legend  information-form-visited__legend--big">Посещенные достопримечательности:</h2>
+            <div class="information-form-visited__form-checkbox-wrapper">
+              <input class="information-form-visited__checkbox  information-form-visited__checkbox--none" type="checkbox" name="visited" id="bridge" checked>
+              <label class="information-form-visited__label  information-form-visited__label--thick" for="bridge">
+                <span class="information-form-visited__label-text">Мост Дьявола</span>
+              </label>
+              <input class="information-form-visited__checkbox  information-form-visited__checkbox--none" type="checkbox" name="visited" id="park" checked>
+              <label class="information-form-visited__label  information-form-visited__label--thick" for="park">
+                <span class="information-form-visited__label-text">Слайд-парк</span>
+              </label>
+              <input class="information-form-visited__checkbox  information-form-visited__checkbox--none" type="checkbox" name="visited" id="hill">
+              <label class="information-form-visited__label  information-form-visited__label--thick" for="hill">
+                <span class="information-form-visited__label-text">Гора-Колокол</span>
+              </label>
+              <input class="information-form-visited__checkbox  information-form-visited__checkbox--none" type="checkbox" name="visited" id="rock" checked>
+              <label class="information-form-visited__label  information-form-visited__label--thick" for="rock">
+                <span class="information-form-visited__label-text">Красные скалы</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="information-form__emotions  information-form-emotions">
+          <div class="information-form-emotions__wrapper">
+            <h2 class="information-form-emotions__legend  information-form-emotions__legend--big">Опишите свои эмоции:</h2>
+            <textarea class="information-form-emotions__textarea  information-form-emotions__textarea--font" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+          </div>
+        </div>
+        <button class="information-forms__send  information-forms__send--big information-forms__jssend" type="submit" value="Отправить отзыв">Отправить отзыв</button>
+      </div>
+    </form>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a class="page-footer__visitsedona page-footer__visitsedona--big" href="#">#Visitsedona</a>
+        <section class="page-footer__social social-links">
+          <a class="social-link  social-link--tw" href="https://twitter.com/">Твиттер</a>
+          <a class="social-link  social-link--fb" href="https://facebook.com">Фейсбук</a>
+          <a class="social-link  social-link--yb" href="https://www.youtube.com/">Ютуб</a>
+        </section>
+        <section class="page-footer__copyright  page-footer-copyright">
+          <p class="page-footer-copyright__title  page-footer-copyright__title--big">Разработано</p>
+          <a class="page-footer-copyright__link" href="#">
+            <svg width="26.943" height="34.09" viewBox="0 0 26.943 34.09" enable-background="new 0 0 26.943 34.09">
+              <path class="page-footer__icon-html-academy" d="M13.62,0.017L13.472,0L0,1.412v24.661l13.473,8.017l13.43-7.99l0.042-0.025V1.412L13.62,0.017z M25.019,12.127L13.495,5.334 L13.494,5.23l-0.087,0.05l-0.088-0.056v0.109L1.925,12.118V3.147l11.548-1.212l11.547,1.212V12.127z M13.405,6.787L24.923,13.5 l-4.479,2.64l-7.093-4.221l-0.014,1.415l5.904,3.513l-0.86,0.507l-5.03-2.992l-0.014,1.415l3.827,2.275l-0.782,0.523l-3.031-1.787 l-0.014,1.413l1.853,1.091l-1.8,1.081L2.034,13.622L13.405,6.787z M1.925,15.127l11.411,6.791l0.016,1.044L5.41,18.234L5.395,19.65 l7.979,4.795l0.018,1.076l-7.973-4.74l-0.013,1.414l8.021,4.822l0.046,0.025l8.143-4.872l-0.011-5.177l3.415-2.036v10.021 L13.472,31.85L1.925,24.979V15.127z"/>
+            </svg>
+          </a>
+        </section>
+      </div>
+    </footer>
+    </div>
+    <section class="modal-error-send  modal-error-send--close">
+      <div class="modal-error-send__form  modal-error-send-form  modal-error-send__wrapper">
+        <h2 class="modal-error-send-form__title  modal-error-send-form__title--big">Что-то пошло не так!</h2>
+        <p class="modal-error-send-form__about  modal-error-send-form__about--big">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button class="modal-error-send-form__ok  modal-error-send-form__ok--big" type="button">ОК</button>
+      </div>
+    </section>
+    <section class="modal-sended  modal-sended--close">
+      <div class="modal-sended__form  modal-sended-form  modal-sended__wrapper">
+        <h2 class="modal-sended-form__title  modal-sended-form__title--big">Ваш отзыв отправлен!</h2>
+        <p class="modal-sended-form__about  modal-sended-form__about--big">Спасибо за ваше участие. Ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+        <div class="modal-sended-form-close__wrapper">
+          <button class="modal-sended-form__close  modal-sended-form__close--big" type="button" value="Закрыть окно">Закрыть окно</button>
+        </div>
+      </div>
+    </section>
+    <script src="js/picturefill.js"></script>
+  </body>
+</html>
