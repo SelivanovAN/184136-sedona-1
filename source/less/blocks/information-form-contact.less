@@ -47,18 +47,8 @@
   background: #e6e6e6 url("../img/icon-mail.svg") no-repeat center;
 }
 .information-form-contact__label:first-of-type {
-  margin-bottom: 40px;
+  margin-bottom: 8px;
   text-transform: none;
-  &::before {
-    content: "Ошибка, перепроверьте номер";
-    position: absolute;
-    bottom: -30px;
-    left: 22px;
-    .font-family-normal();
-    font-size: 14px;
-    line-height: 26px;
-    color: #ff5c5c;
-  }
 }
 .information-form-contact__label-contact {
   padding-bottom: 8px;
@@ -154,12 +144,6 @@
   }
   .information-form-contact__label:first-of-type {
     margin-bottom: 21px;
-    &::before {
-      left: auto;
-      bottom: auto;
-      top: 0;
-      right: 0;
-    }
   }
 }
 @media @desktop-widths {
@@ -207,11 +191,6 @@
   .information-form-contact__label:first-of-type {
     width: 400px;
     margin-bottom: 0;
-    &::before {
-      right: auto;
-      left: 106px;
-      top: -33px;
-    }
   }
   .information-form-contact__label-contact-hidden {
     font-size: 0;
